@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/fonts/Vazir.ttf") format("truetype");
+  font-style: normal;
+}
+body {
+  font-family: "vazir", sans-serif;
+}
+
+.bgImage{
+  background-image: url("./assets/img/eve-06.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.spin{
+ animation: spin 40s linear infinite;
+}
