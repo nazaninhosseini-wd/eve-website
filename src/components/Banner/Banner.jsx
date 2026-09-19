@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../../assets/img/eve-10.jpg" ;
+import img from "../../assets/img/eve-10.JPG" ;
 import banner from "../../assets/img/eve-09.jpg";
 import { GiLargeDress } from "react-icons/gi";
 import { GiSewingMachine } from "react-icons/gi";
@@ -16,7 +16,7 @@ const Banner = () => {
                         <div>
                             <img 
                             src={img} 
-                            className='max-w-[430px] p-5 w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)' 
+                            className='max-w-[430px] p-5 w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]' 
                             />
                         </div>
                         <div className=' flex flex-col justify-center gap-6 sm:pt-0 p-4 '>
